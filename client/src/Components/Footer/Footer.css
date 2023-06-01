@@ -1,0 +1,137 @@
+.footer
+{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    border-bottom: 1px solid #808080;
+    margin-top: 100px;
+    font-size: 100%;
+}
+.footer .Quick_links
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+}
+.footer .Quick_links span:hover 
+{
+    text-decoration: underline;
+}
+.footer .Extra_links span:hover
+{
+    text-decoration: underline;
+}
+.footer .Extra_links
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+}
+.footer .Contact_info .contact
+{
+    font-size: small;
+    cursor: pointer;
+}
+.footer .Contact_info .contact:hover
+{
+    text-decoration: underline;
+}
+.Contact_info .head
+{
+    text-align: left;
+}
+.footer .Contact_info .contact
+{
+    display: flex;
+    align-items: center;
+    gap:7px;
+    margin-bottom: 12px;
+}
+.footer .Contact_info .contact .icon
+{
+    color: rgb(177, 14, 177);
+}
+.footer .head
+{
+    color: #232f3e;
+    font-weight: bold;
+    font-family: 'Poppins';
+    margin-left: 0;
+}
+.f_end
+{
+    text-align: center;
+    background-color: #232f3e;
+    color: aliceblue;
+    width: 100vw;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f_end span
+{
+    color: whitesmoke;
+}
+.footer .Follow_Us .contact
+{
+    display: flex;
+    align-items: center;
+    gap:7px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+.footer .Follow_Us .contact:hover
+{
+    text-decoration: underline;
+}
+.footer .Follow_Us .contact .icon
+{
+    color: rgb(177, 14, 177);
+}
+.footer .Follow_Us .contact
+{
+    font-size: small;
+}
+@media screen and (min-width:0px) and (max-width:600px){
+    .footer
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer .head
+    {
+        display: flex;
+        justify-content: flex-start;
+        font-size: large;
+    }
+    .footer .Quick_links,.Extra_links,.Contact_info,.Follow_Us
+    {
+        margin: auto auto;
+        text-align: center;
+    }
+    .footer .Contact_info,.Follow_Us
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .f_end
+    {
+    text-align: center;
+    background-color: #232f3e;
+    color: aliceblue;
+    width: 100%;
+    font-size: 45%;
+    height: 30px;
+    display: flex;
+    white-space:nowrap;
+    align-items: center;
+    justify-content: center;
+    }
+}

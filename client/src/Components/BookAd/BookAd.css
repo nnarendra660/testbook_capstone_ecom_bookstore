@@ -1,0 +1,137 @@
+.BookAd
+{
+    width: 100vw;
+    height: 600px;
+    background-color: #fcebe6;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: content-box;
+    /* position: relative; */
+    /* overflow: hidden; */
+}
+.BookAd .RightAd
+{
+    width: 100%;
+    height: 100%;
+}
+
+.BookAd .RightAd img
+{
+    /* position: absolute; */
+    /* z-index: 0; */
+    /* max-width: 100%; */
+    margin-top: 50px;
+    width: 435px;
+    height: 601px;
+    filter: brightness(100%);
+    box-shadow: 0px 0px 30px 5px #00000099;
+}
+.New
+{
+    color: #9b756b;
+    margin: 50px;
+    font-size: larger;
+    font-family: sans-serif;
+}
+.title
+{
+    color: #171921;
+    font-size: 80px;
+    font-weight: bolder;
+    font-family: 'Poppins';
+    margin: 0px 0px;
+}
+.passage
+{
+    margin: 50px 50px 0px 50px;
+}
+.purchase
+{
+    margin: 10px 50px 0px 50px;
+    text-align: center;
+    background-color: #946659;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-family: 'Poppins';
+    padding: 15px 25px;
+    width: 150px;
+    font-size: larger;
+    border-radius: 3px;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+.purchase:hover
+{
+    background-color: #FF8C00;
+}
+.Read
+{
+    font-size: larger;
+    text-align: center;
+    margin:20px 0px 0px 70px;
+    background-color: #fff;
+    color: #171921;
+    font-weight: bolder;
+    font-family: 'Poppins';
+    padding: 15px 25px;
+    width: 170px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+.Read:hover
+{
+    background-color: #FF8C00;
+    color: #fff;
+}
+@media screen and (min-width:0px) and (max-width:951px) {
+    
+    .BookAd{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: 100%;
+        height: fit-content;
+        overflow: hidden;
+    }
+    .BookAd .RightAd .res 
+    {
+        text-align: center;
+    }
+
+    .BookAd .RightAd img
+    {
+        width: 135px;
+        height: 201px;
+        margin: 25px auto;
+    }
+
+    .BookAd .LeftAd
+    {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .BookAd .LeftAd .title
+    {
+        font-size: 36px;
+        margin: 10px 10px 0px 50px;
+        font-size: larger;
+    }
+    .Read
+    {
+        margin:10px 10px 0px 50px;
+        font-size: large;
+    }
+    .LeftAd .purchase
+    {
+        width: 70%;
+    }
+    .LeftAd .Read
+    {
+        width: 70%;
+    }
+
+    }
